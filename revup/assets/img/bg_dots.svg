@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="26" height="26" viewBox="0 0 26 26">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="長方形_166" data-name="長方形 166" width="26" height="26" transform="translate(3936 2487)" fill="#abe7e9"/>
+    </clipPath>
+  </defs>
+  <g id="bg_dots" transform="translate(-3936 -2487)" opacity="0.2" clip-path="url(#clip-path)">
+    <circle id="楕円形_40879" data-name="楕円形 40879" cx="3" cy="3" r="3" transform="translate(3946 2497)" fill="#4ec6d9"/>
+  </g>
+</svg>
