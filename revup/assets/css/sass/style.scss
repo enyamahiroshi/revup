@@ -150,7 +150,7 @@ body {
 }
 @media screen and (max-width: 640px) {
   .l-main{
-    padding-top: 35px;
+    padding-top: 25px;
   }
 }
 
@@ -746,7 +746,6 @@ body {
   display: block;
   font-size: 1.6rem;
   font-weight: 700;
-  margin: auto;
   padding: 9px 40px 7px 16px;
   position: relative;
   text-align: center;
@@ -789,6 +788,9 @@ body {
 @media screen and (max-width: 1024px) {
   .menu-pdf {
     font-size: 1.4rem;
+    width: 83.7%;
+    margin-left: auto;
+    margin-right: auto;
     &::after {
       right: 14px;
     }
@@ -815,7 +817,6 @@ body {
     padding-top: 4px;
     padding-bottom: 2px;
     padding-left: 40px;
-    width: 100%;
     br {
       display: block;
     }
@@ -869,7 +870,7 @@ body {
     .mv__lead {
       color: var(--epson-color);
       font-weight: 700;
-      margin-top: 26px;
+      margin-top: 10px;
       text-align: left;
     }
     .mv__item-name{
@@ -877,10 +878,10 @@ body {
       font-size: 3.2rem;
       line-height: 1.5;
       color: #fff;
-      margin-top: 30px;
+      margin-top: 20px;
       padding: 5px 29px;
       background-color: var(--epson-color);
-      border-radius: 999px;
+      border-radius: 8px;
       text-align: center;
       br{
         display: none;
@@ -914,8 +915,8 @@ body {
   //エプソン対応スマートウォッチ
   &:where(.-id206) {
     .mv__inner {
-      padding-top: 30px;
-      padding-bottom: 64px;
+      padding-top: 22px;
+      padding-bottom: 22px;
       background-image: url(../img/img_id206-mv.png);
       background-position: right center;
       background-repeat: no-repeat;
@@ -928,8 +929,8 @@ body {
   //非リスト型活動量計
   &:where(.-mt-100) {
     .mv__inner {
-      padding-top: 30px;
-      padding-bottom: 64px;
+      padding-top: 22px;
+      padding-bottom: 22px;
       background-image: url(../img/img_mt-100-mv.png);
       background-position: right center;
       background-repeat: no-repeat;
@@ -1098,8 +1099,9 @@ body {
     &:where(.-id206) {
       .mv__inner {
         //縦組み設定
-        padding-top: 70%;
-        background-position: center top 3%;
+        padding-top: 65%;
+        padding-bottom: 20px;
+        background-position: center top 1%;
         background-size: 90%;
       }
       .mv__content {
@@ -1110,7 +1112,8 @@ body {
     &:where(.-mt-100) {
       .mv__inner {
         //縦組み設定
-        padding-top: 70%;
+        padding-top: 65%;
+        padding-bottom: 20px;
         background-position: center top -8%;
         background-size: 130%;
       }
@@ -1297,17 +1300,17 @@ body {
   display: flex;
   justify-content: space-between;
   margin: auto;
+  padding-bottom: 128px;
   max-width: 1160px;
   width: 100%;
 }
 
 .home-menu__item {
-  margin-bottom: 50px;
   width: 46.55%;
 }
 
-.home-menu__supple {
-  margin-top: 32px;
+.menu__supple {
+  margin-top: 16px;
 }
 
 
@@ -1361,6 +1364,7 @@ body {
   }
 
   .home-menu__lists {
+    padding-bottom: 20px;
     flex-direction: column;
   }
 
@@ -1370,7 +1374,7 @@ body {
     width: 100%;
   }
 
-  .home-menu__supple {
+  .menu__supple {
     margin-top: 14px;
   }
 
